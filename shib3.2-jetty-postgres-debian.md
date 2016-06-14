@@ -535,15 +535,16 @@ idp.pool.LDAP attrs remains defined only once.
 -----------------------------------------------------------------------------------------------------
 
 Reference links:
-	http://en.wikipedia.org/wiki/Spring_Framework
-	http://en.wikipedia.org/wiki/Java_Persistence_API
-	https://www.switch.ch/aai/support/presentations/techupdate-2014/06_IdPv3.pdf
-	https://wiki.shibboleth.net/confluence/display/CONCEPT/IdPSkills
-	https://wiki.shibboleth.net/confluence/display/CONCEPT/ECP
-	http://docs.oasis-open.org/security/saml/Post2.0/saml-ecp/v2.0/cs01/
-	https://wiki.shibboleth.net/confluence/display/DEV/IdP3Details
-	http://www.slideshare.net/Codemotion/jetty-9-the-next-generation-servlet-container
-	https://github.com/Unicon/unicon-shibboleth-idp-v3-template
+
+http://en.wikipedia.org/wiki/Spring_Framework
+http://en.wikipedia.org/wiki/Java_Persistence_API
+https://www.switch.ch/aai/support/presentations/techupdate-2014/06_IdPv3.pdf
+https://wiki.shibboleth.net/confluence/display/CONCEPT/IdPSkills
+https://wiki.shibboleth.net/confluence/display/CONCEPT/ECP
+http://docs.oasis-open.org/security/saml/Post2.0/saml-ecp/v2.0/cs01/
+https://wiki.shibboleth.net/confluence/display/DEV/IdP3Details
+http://www.slideshare.net/Codemotion/jetty-9-the-next-generation-servlet-container
+https://github.com/Unicon/unicon-shibboleth-idp-v3-template
 
 -----------------------------------------------------------------------------------------------------
 
@@ -575,8 +576,6 @@ ldconfig
 Test using
 
 `sqlplus ORAUSER/password@//<oracle db fqdn>:1521/username`
-
-```
 
 
 ### Download and install oracle_fdw - A Foreign Data Wrapper for Oracle from:
