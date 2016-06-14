@@ -578,16 +578,18 @@ Test using
 `sqlplus ORAUSER/password@//<oracle db fqdn>:1521/username`
 
 
-### Download and install oracle_fdw - A Foreign Data Wrapper for Oracle from:
+### Download and install oracle_fdw - A Foreign Data Wrapper for Oracle
+
+Download from http://pgxn.org/dist/oracle_fdw/
+
 ```
-http://pgxn.org/dist/oracle_fdw/
 wget http://api.pgxn.org/dist/oracle_fdw/1.3.0/oracle_fdw-1.3.0.zip
 apt-get install postgresql-server-dev-9.4
-# export ORACLE_HOME=/opt/oracle/instantclient
-# cd /opt/oracle/instantclient
-# make
-# make install
-# /etc/init.d/postgresql restart
+export ORACLE_HOME=/opt/oracle/instantclient
+cd /opt/oracle/instantclient
+make
+make install
+/etc/init.d/postgresql restart
 ```
 
 Activate the foreign data wrapper and map a local table to a remote one.
