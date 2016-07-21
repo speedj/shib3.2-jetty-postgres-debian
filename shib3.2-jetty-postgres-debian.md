@@ -1,4 +1,4 @@
-Shibboleth IdP 3.2.1 on Debian Jessie using Jetty and Postgres 
+Shibboleth IdP 3.2.1 on CentOS 7 using Jetty and Postgres
 ============
 
 disordered mashed install notes installing the following software:
