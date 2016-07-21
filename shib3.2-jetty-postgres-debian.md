@@ -12,8 +12,8 @@ mainly for the needs of unoptimized shibboleth metadata parsing.
 
 ## Why Postgres ?
 
-It is the more free database software around and you can implement
-foreign connectors for nearly the totality of data soures that fills
+It is the most free database software around and you can implement
+foreign connectors for nearly the totality of data sources that fills
 the Identity management galaxy of your Institution. You can also
 easily implement "caching tables" so that IdP does not fail
 authentication because one of their backend is not reachable: old data
