@@ -633,6 +633,7 @@ postgres=# REFRESH MATERIALIZED VIEW TUTTI_AUTENT;
 REFRESH MATERIALIZED VIEW
 
 (mettere a cron di postgres)
+14 4 * * * /bin/echo "REFRESH MATERIALIZED VIEW TUTTI_AUTENT;" | /usr/bin/psql -d shibboleth
 
 postgres=# GRANT SELECT ON TUTTI_AUTENT TO shibboleth;
 ```
