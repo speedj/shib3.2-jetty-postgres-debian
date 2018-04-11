@@ -211,10 +211,10 @@ This also generates the private key `privkey.pem`.
 `chmod 000 privkey.pem`
 
 #### Prepare certs
-Once obtained the signed certificate, prepare the full chain file and enclose all in a pkcs12 keystore:
+Once obtained the signed certificate, prepare the certificate chain file and enclose it in a pkcs12 keystore:
 
 ```
-cat idemfero.crt intermediate.crt [intermediate2.crt]... rootCA.crt > cert-chain.txt
+cat idemfero.crt intermediate.crt [intermediate2.crt]... > cert-chain.txt
 openssl pkcs12 -export -inkey privkey.pem -in cert-chain.txt -out idemfero.p12
 ```
 
