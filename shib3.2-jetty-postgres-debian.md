@@ -560,7 +560,7 @@ headers instantclient-sdk-linux.x64-12.1.0.2.0.zip
 ```
 Unzip it in /opt/oracle/instantclient_12_1
 
-In /etc/profilei.d/oracle  add:
+In /etc/profile.d/oracle.sh  add:
 
 `export PATH=/opt/oracle/instantclient_12_1:$PATH`
 
