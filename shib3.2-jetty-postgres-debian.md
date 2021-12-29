@@ -551,9 +551,9 @@ https://github.com/Unicon/unicon-shibboleth-idp-v3-template
 # Implementing Oracle foreign Data conrctor for Postgres
 #### Oracle clent
 
-Install libaio1 library needed by oracle client
+Install libaio1 library needed by oracle client along with compiling tools
 ```
-# apt install libaio1
+# apt install libaio1 make cpp
 ```
 Download
 
