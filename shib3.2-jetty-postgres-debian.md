@@ -551,6 +551,10 @@ https://github.com/Unicon/unicon-shibboleth-idp-v3-template
 # Implementing Oracle foreign Data conrctor for Postgres
 #### Oracle clent
 
+Install libaio1 library needed by oracle client
+
+# apt install libaio1
+
 Download
 
 ```
@@ -558,6 +562,8 @@ libs instantclient-basic-linux.x64-12.1.0.2.0.zip
 exe instantclient-sqlplus-linux.x64-12.1.0.2.0.zip
 headers instantclient-sdk-linux.x64-12.1.0.2.0.zip
 ```
+from Oracle site
+
 Unzip it in /opt/oracle/instantclient_12_1
 
 In /etc/profile.d/oracle.sh  add:
