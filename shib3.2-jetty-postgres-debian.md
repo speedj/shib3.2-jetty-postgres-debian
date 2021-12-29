@@ -592,7 +592,7 @@ Download from http://pgxn.org/dist/oracle_fdw/
 wget http://api.pgxn.org/dist/oracle_fdw/1.3.0/oracle_fdw-1.3.0.zip
 apt-get install postgresql-server-dev-9.4
 export ORACLE_HOME=/opt/oracle/instantclient
-cd /opt/oracle/instantclient
+cd /opt/oracle/oracle_fdw-1.3.0
 make
 make install
 /etc/init.d/postgresql restart
